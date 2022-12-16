@@ -1,7 +1,13 @@
+body {
+    margin:0;
+    width: 100%;
+}
+
 .top {
     height: 30px;
-    background-color: bisque;
+    
     border: 1px solid black;
+    box-sizing: border-box;
     display: flex;
     width: 100%;
     font-size: 15px;
@@ -10,7 +16,6 @@
 }
 
 .big-text {
-    background-color: blueviolet;
     margin: 0;
     padding: 5px;
     display: flex;
@@ -21,7 +26,6 @@
 
 .menu {
   
-    background-color: yellow;
     display: flex;
     justify-content: center;
     height: 35px;
@@ -36,9 +40,8 @@
 }
 
 .explanation {
-    background-color: antiquewhite;
     width: 80%;
-    height: 50px;
+    height: auto;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -46,8 +49,29 @@
 
 }
 
-.img {
-    width: 400px;
-    height: 225px;
+img {
+    max-width: 100%;
+    height: auto;
+}
+.big-img {
+    margin-top: 10px;
+}
+
+.img-explanation {
+    display: flex;
+    margin: 10px 0;
+}
+.img-explanation p {
+    margin: 10px 20px;
+}
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div {
+    border: 1px solid black;
     
 }
