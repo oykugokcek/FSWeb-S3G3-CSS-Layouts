@@ -46,10 +46,13 @@ a {
 
 .big-picture{
     margin: 10px;
+    width: 100%;
 }
 
 .main-section {
+    width: 100%;
     display: flex;
+    justify-content: center;
 
 }
 
@@ -84,4 +87,32 @@ footer {
     background-color: aquamarine;
     padding-bottom: 20px;
 }
+@media only screen and (max-width: 600px) {
+    .introducer {
+        display: none;
+    }
 
+    .menu {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+    }
+     h1 {
+        padding-top: 20px;
+        text-align: center;
+     }
+
+
+    .menu nav {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .menu nav a {
+        margin: 10px;
+    }
+
+    .main-section {
+        flex-direction: column;
+    }
+}
