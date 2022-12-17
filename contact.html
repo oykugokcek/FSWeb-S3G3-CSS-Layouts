@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=    <h1> ABOUT </h1>, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=    <h1> ABOUT </h1>, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="contact.css">
     <title>Döküman</title>
-</head>
-<body>
-    <h1> İletişim </h1>
-</body>
+  </head>
+  <body>
+    <div class="contact-section">
+      <div class="contact-info">
+        <div><i class="fa-solid fa-location-dot"></i>Datça/Muğla</div>
+        <div><i class="fa-solid fa-envelope"></i>oykgokcek@gmail.com</div>
+        <div><i class="fa-solid fa-phone"></i>+90 506 127 72 71</div>
+        <div>
+          <i class="fa-brands fa-linkedin"></i>www.linkedin.com/in/oykugokcek
+        </div>
+        <div>
+          <i class="fa-brands fa-instagram"></i
+          >instagram.com/vatkana?igshid=YmMyMTA2M2Y=
+        </div>
+      </div>
+      <div class="contact-form">
+        <h2>Bize Ulaşın</h2>
+        <form class="contact" action="" method="post">
+            <input type="text" name="name" class="text-box" placeholder="İsminiz" required>
+            <input type="email" name="email" class="text-box" placeholder="Epostanız" required>
+            <input type="message" name="message" class="text-box" placeholder="Mesajınız" required>
+            <!-- <textarea name="message" rows="5" placeholder="Mesajınız" required></textarea> -->
+            <input type="submit" name="submit" class="send-btn" value="Gönder">
+      </div>
+    </div>
+  </body>
 </html>
